@@ -1,0 +1,22 @@
+﻿<Window x:Class="_184784_ComputerParts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_184784_ComputerParts"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="1000">
+    <Canvas>
+        <Label FontSize="18">Press the component to see the suggestion</Label>
+        <Button x:Name="btnCpu" Content="Cpu" Click="btnCpu_Click" FontSize="18" Canvas.Left="10" Canvas.Top="39" Height="65" Width="121" />
+        <Button x:Name="MotherBoardBtn" Content="Mother Board" Click="MotherBoardBtn_Click" FontSize="18" Canvas.Left="136" Canvas.Top="39" Height="65" Width="125" RenderTransformOrigin="0.505,0.55" />
+        <Button x:Name="CaseBtn" Content="Case" Click="CaseBtn_Click" FontSize="18" Canvas.Left="266" Canvas.Top="39" Height="65" Width="113" />
+        <Button x:Name="MemoryBtn" Content="Memory" Click="MemoryBtn_Click" FontSize="18" Canvas.Left="384" Canvas.Top="39" Height="65" Width="102" />
+        <Button x:Name="PowerSupplyBtn" Content="Power Supply" Click="PowerSupplyBtn_Click" FontSize="18" Canvas.Left="491" Canvas.Top="39" Height="65" Width="115" />
+        <Button x:Name="OpticalDriveBtn" Content="Optical Drive" Click="OpticalDriveBtn_Click" FontSize="18" Canvas.Left="611" Canvas.Top="39" Height="65" Width="123" />
+        <Button x:Name="GraphicsCardBtn" Content="Graphics Card" Click="GraphicsCardBtn_Click" FontSize="18" Canvas.Left="739" Canvas.Top="39" Height="65" Width="125" />
+        <Button x:Name="StorageBtn" Content="Storage" Click="StorageBtn_Click" FontSize="18" Canvas.Left="869" Canvas.Top="39" Height="65" Width="89" />
+        <TextBox x:Name="txtcompontent" IsReadOnly="True" TextWrapping="Wrap" FontSize="14" Canvas.Left="10" Canvas.Top="126" Height="283" Width="948"></TextBox>
+    </Canvas>
+
+</Window>
