@@ -17,6 +17,7 @@
         <Button x:Name="GraphicsCardBtn" Content="Graphics Card" Click="GraphicsCardBtn_Click" FontSize="18" Canvas.Left="739" Canvas.Top="39" Height="65" Width="125" />
         <Button x:Name="StorageBtn" Content="Storage" Click="StorageBtn_Click" FontSize="18" Canvas.Left="869" Canvas.Top="39" Height="65" Width="89" />
         <TextBox x:Name="txtcompontent" IsReadOnly="True" TextWrapping="Wrap" FontSize="14" Canvas.Left="10" Canvas.Top="126" Height="283" Width="948"></TextBox>
+        <Button x:Name="RationaleBtn" Content="Rationale for all the Computer parts" Click="RationaleBtn_Click" FontSize="18" Canvas.Left="373" Canvas.Top="6" />
     </Canvas>
 
 </Window>
